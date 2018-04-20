@@ -6005,6 +6005,14 @@ public interface OdeMessages extends Messages {
   @DefaultMessage("Multimedia component that plays audio and controls phone vibration.  The name of a multimedia field is specified in the <code>Source</code> property, which can be set in the Designer or in the Blocks Editor.  The length of time for a vibration is specified in the Blocks Editor in milliseconds (thousandths of a second).\n<p>For supported audio formats, see <a href=\"http://developer.android.com/guide/appendix/media-formats.html\" target=\"_blank\">Android Supported Media Formats</a>.</p>\n<p>This component is best for long sound files, such as songs, while the <code>Sound</code> component is more efficient for short files, such as sound effects.</p>")
   @Description("")
   String PlayerHelpStringComponentPallette();
+    
+  @DefaultMessage("QAXH_Hash implements some hash fonctions")
+  @Description("")
+  String qAXH_HashComponentPallette();
+    
+  @DefaultMessage("Code component implementing various hash functions.</p>")
+  @Description("")
+  String QAXH_HashHelpStringComponentPallette();
 
   @DefaultMessage("Sharing is a non-visible component that enables sharing files and/or messages between your app and other apps installed on a device. The component will display a list of the installed apps that can handle the information provided, and will allow the user to choose one to share the content with, for instance a mail app, a social network app, a texting app, and so on.<br>The file path can be taken directly from other components such as the Camera or the ImagePicker, but can also be specified directly to read from storage. Be aware that different devices treat storage differently, so a few things to try if, for instance, you have a file called arrow.gif in the folder <code>Appinventor/assets</code>, would be: <ul><li><code>\"file:///sdcard/Appinventor/assets/arrow.gif\"</code></li> or <li><code>\"/storage/Appinventor/assets/arrow.gif\"</code></li></ul>")
   @Description("")
@@ -6261,6 +6269,14 @@ public interface OdeMessages extends Messages {
   @DefaultMessage("GetRowsWithConditions")
   @Description("")
   String GetRowsWithConditionsMethods();
+
+  @DefaultMessage("sha1")
+  @Description("")
+  String sha1Methods();
+
+  @DefaultMessage("sha256")
+  @Description("")
+  String sha256Methods();
 
   @DefaultMessage("简体中文")
   @Description("")
